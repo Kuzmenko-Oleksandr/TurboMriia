@@ -34,7 +34,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.header-back img{
+.header-back .icon-back{
     width: 6px;
     height: 12px;
 }
@@ -42,4 +42,9 @@ body {
     color: white;
     margin-left: 9px;
     font-size: 12px;
+    width: 100%;
+}
+.chat-header-img{
+    width: 30px;
+    height: 30px;
 }
