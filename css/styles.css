@@ -1,0 +1,19 @@
+.container{
+    height: 100%;
+    background: #2884EF;
+}
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Дополнительные стили для вашего логотипа, если необходимо */
+.img-fluid {
+    width: 200px; /* Замените на желаемую ширину */
+    height: auto; /* Автоматическая высота, чтобы сохранить пропорции */
+}
+.main-content{
+    display: none;
+}
