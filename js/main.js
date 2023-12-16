@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $(".logo-container").fadeOut(2000);
-    $(".main-content").fadeIn(2500);
+    $(".logo-container").delay(1000).fadeOut(250);
+    $(".main-content").delay(1000).fadeIn(250);
 });
