@@ -21,5 +21,21 @@ $(document).ready(function () {
         }
     }
 });
+    // Подключаем библиотеку axios
+    const axios = require('axios');
+
+// Выполняем GET-запрос к серверу
+    axios.get('http://18.117.74.112/get-name')
+        .then(response => {
+            // Данные декодированы из JSON
+            const data = response.data;
+
+            // Если данные содержат строку в кодировке UTF-8, вы можете декодировать ее
+            const utf8String = decodeURIComponent(escape(data.utf8EncodedString));
+            console.log(utf8String);
+        })
+        .catch(error => {
+            console.error('Error:', error.message);
+        });
 })
 ;
