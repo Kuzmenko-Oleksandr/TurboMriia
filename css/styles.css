@@ -48,3 +48,25 @@ body {
     width: 30px;
     height: 30px;
 }
+.student-card-container{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 92.5999984741211px 0px #FFFFFFE3 inset;
+    border-radius: 25px;
+}
+.student-img{
+    width: 85px;
+    height: 85px;
+}
+.text-about-student{
+    margin-left: 10px;
+}
+.name-student{
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.student-about{
+    font-size: 12px;
+}
