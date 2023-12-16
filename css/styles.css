@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-    height: 100%;
     background: #2884EF;
 }
 
@@ -86,23 +85,6 @@ body {
     width: 100%;
 }
 
-.test-container {
-    background: white;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.button-test-container {
-    display: flex;
-    justify-content: center;
-    margin: 22px 23px;
-}
-
-.button-test {
-    background: #2884EF;;
-    box-shadow: 0px 0px 4.400000095367432px 0px #00000033;
-}
-
 .sections-buttons-container {
     color: #ffffff;
     display: flex;
@@ -128,4 +110,63 @@ body {
 
 .hidden {
     display: none;
+}
+
+.test-container {
+    background: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 22px 23px;
+    margin-top: 30px;
+}
+
+.button-test-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 23px 22px 23px;
+}
+
+.button-test {
+    background: #2884EF;;
+    box-shadow: 0px 0px 4.400000095367432px 0px #00000033;
+    border-radius: 41px;
+    padding: 16px;
+    text-decoration: unset;
+    color: white;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background: #9ACCFF;
+    box-shadow: 0px 0px 4.400000095367432px 0px #00000033;
+    position: relative;
+    border-radius: 12px;
+
+}
+
+.progress-fill {
+    width: 50%;
+    height: 100%;
+    background: #2884EF;
+    box-shadow: 0px 0px 4.400000095367432px 0px #00000033;
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mark {
+    margin-left: 16px;
+    text-align: center;
+    border-radius: 20px;
+    width: 30px;
+    background: #8EFF7C;
+    box-shadow: 0px 0px 4.400000095367432px 0px #00000033;
+    font-size: 15px;
 }
