@@ -27,3 +27,17 @@ body {
 .main-content{
     display: none;
 }
+
+.back{
+    display: flex;
+    align-items: center;
+}
+.back img{
+    width: 6px;
+    height: 12px;
+}
+.back span{
+    color: white;
+    margin-left: 9px;
+    font-size: 12px;
+}
