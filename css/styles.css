@@ -200,3 +200,23 @@ body {
 .header-back a {
     width: 100%;
 }
+
+.time {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+.image-container-chat div {
+    margin-top: 10px;
+}
+.chat-send{
+    cursor: pointer;
+}
+.chat-img-2,
+.chat-img-3,
+.chat-img-4 {
+    display: none;
+}
