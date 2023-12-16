@@ -4,9 +4,7 @@ $(document).ready(function () {
     $('.progress-container').each(function () {
         let getMark = parseFloat($(this).find('.mark').text());
 
-        if (getMark === 12) {
-            $(this).find('.progress-fill').css('width', '100%');
-        } else {
+        if (getMark !== 12) {
             let getWidth = 8.33 * getMark;
             $(this).find('.progress-fill').css('width', getWidth + '%');
         }
