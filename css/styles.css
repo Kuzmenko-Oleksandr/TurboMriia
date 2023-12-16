@@ -70,3 +70,26 @@ body {
 .student-about{
     font-size: 12px;
 }
+.sections-buttons-container{
+    color: ffffff;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin: 15px 0;
+    width: 100vw;
+    margin-left: -15px;
+}
+.section-button{
+    padding: 16px 17px;
+    white-space: nowrap;
+    border-radius: 41px;
+    background: var(--, #2884EF);
+    box-shadow: 0px 0px 16.6px 0px #FFF inset, 0px 0px 4.4px 0px rgba(0, 0, 0, 0.20);
+    margin: 0 12px;
+}
+.sections-buttons-container::-webkit-scrollbar {
+    display: none;
+  }
+.hidden{
+    display: none;
+}
