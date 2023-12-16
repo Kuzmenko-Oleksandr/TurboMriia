@@ -4,14 +4,16 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body {
     font-family: 'e-Ukraine', sans-serif !important;
 }
 
-.container{
+.container {
     height: 100%;
     background: #2884EF;
 }
+
 .logo-container {
     position: absolute;
     top: 50%;
@@ -24,31 +26,36 @@ body {
     width: 200px; /* Замените на желаемую ширину */
     height: auto; /* Автоматическая высота, чтобы сохранить пропорции */
 }
-.main-content{
+
+.main-content {
     display: none;
 }
 
-.header-back{
+.header-back {
     display: flex;
     align-items: center;
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.header-back .icon-back{
+
+.header-back .icon-back {
     width: 6px;
     height: 12px;
 }
-.header-back span{
+
+.header-back span {
     color: white;
     margin-left: 9px;
     font-size: 12px;
     width: 100%;
 }
-.chat-header-img{
+
+.chat-header-img {
     width: 30px;
     height: 30px;
 }
-.student-card-container{
+
+.student-card-container {
     display: flex;
     align-items: center;
     margin-top: 5px;
@@ -56,40 +63,69 @@ body {
     box-shadow: 0px 0px 92.5999984741211px 0px #FFFFFFE3 inset;
     border-radius: 25px;
 }
-.student-img{
+
+.student-img {
     width: 85px;
     height: 85px;
 }
-.text-about-student{
+
+.text-about-student {
     margin-left: 10px;
 }
-.name-student{
+
+.name-student {
     margin-bottom: 0;
     font-size: 17px;
 }
-.student-about{
+
+.student-about {
     font-size: 12px;
 }
-.sections-buttons-container{
-    color: ffffff;
+
+.diagram img {
+    width: 100%;
+}
+
+.test-container {
+    background: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.button-test-container {
+    display: flex;
+    justify-content: center;
+    margin: 22px 23px;
+}
+
+.button-test {
+    background: #2884EF;;
+    box-shadow: 0px 0px 4.400000095367432px 0px #00000033;
+}
+
+.sections-buttons-container {
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
     margin: 15px 0;
     width: 100vw;
-    margin-left: -15px;
+    margin-left: -12px;
 }
-.section-button{
+
+.section-button {
     padding: 16px 17px;
     white-space: nowrap;
     border-radius: 41px;
-    background: var(--, #2884EF);
+    background: #2884EF;
     box-shadow: 0px 0px 16.6px 0px #FFF inset, 0px 0px 4.4px 0px rgba(0, 0, 0, 0.20);
     margin: 0 12px;
 }
+
 .sections-buttons-container::-webkit-scrollbar {
     display: none;
-  }
-.hidden{
+}
+
+.hidden {
     display: none;
 }
