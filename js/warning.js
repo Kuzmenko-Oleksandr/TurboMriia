@@ -21,21 +21,20 @@ $(document).ready(function () {
         }
     }
 });
-    // Подключаем библиотеку axios
-    const axios = require('axios');
+    $.getJSON('http://18.117.74.112/get-name')
+        .done(function (data) {
+            // Обработка данных из JSON-ответа
+            console.log(data);
 
-// Выполняем GET-запрос к серверу
-    axios.get('http://18.117.74.112/get-name')
-        .then(response => {
-            // Данные декодированы из JSON
-            const data = response.data;
-
-            // Если данные содержат строку в кодировке UTF-8, вы можете декодировать ее
-            const utf8String = decodeURIComponent(escape(data.utf8EncodedString));
-            console.log(utf8String);
+            // Пример обработки имени из JSON
+            if (data && data.name) {
+                const names = data.name.join(', ');
+                console.log('Names:', names);
+            }
         })
-        .catch(error => {
-            console.error('Error:', error.message);
+        .fail(function (jqxhr, textStatus, error) {
+            console.error('Error:', textStatus, error);
         });
+
 })
 ;
