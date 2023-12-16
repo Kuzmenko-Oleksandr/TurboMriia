@@ -21,15 +21,12 @@ $(document).ready(function () {
         }
     }
 });
-    $.getJSON('http://18.117.74.112/get-name')
+    $.getJSON('http://18.117.74.112/get-grades')
         .done(function (data) {
-            // Обработка данных из JSON-ответа
             console.log(data);
-
-            // Пример обработки имени из JSON
-            if (data && data.name) {
-                const names = data.name.join(', ');
-                console.log('Names:', names);
+            if (data && data.grade) {
+                const grades = data.grade.join(', ');
+                console.log('Grades:', grades);
             }
         })
         .fail(function (jqxhr, textStatus, error) {
